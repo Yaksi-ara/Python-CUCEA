@@ -1,3 +1,9 @@
+"""
+Una persona nos pide saber cuánto tienen que pagar los clientes al comprar un número X de manzanas y a un coste Y de manzanas.
+¿Qué requiero?
+Precio manzanas
+Número de manzanas compradas
+"""
 Preciomanzanas:int = 5
 Cantidadmanzanas:int = 10
 # Soy un comentario de una línea
