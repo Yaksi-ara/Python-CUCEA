@@ -2,7 +2,7 @@ PrecioManzanas =(int(input("Ingresa precio manzanas: "))) # Se tiene que definir
 CantidadManzanas = (int(input("Ingresa cantidad manzanas: "))) # en este caso int, pq si no podrías poner una letra x letra y eso q
 print("El costo es de: ", PrecioManzanas * CantidadManzanas)
 
-#PARA CONCATENAR SE USA str, forma 1:
+#PARA CONCATENAR para sumar cadenas de texto, forma 1:
 print("Las manzanas están en: " + str(PrecioManzanas)) #SUMAMOS LETRAS
 #FORMA 2
 print("Fueron: " , CantidadManzanas , "manzanas" )
