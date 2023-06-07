@@ -7,4 +7,4 @@ elif dia.lower() == "viernes" :
  print ("Y toca capítulo nuevo")
 else : 
     print ("Toca descansar")
-print ("Adiós")
+print ("Adiós") #Mientras más bajas en tus ifs, tmb baja la importancia
