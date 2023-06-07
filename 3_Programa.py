@@ -6,4 +6,3 @@ if edad >= 18 and dia == "miércoles" and traes50pesitos:
 else:
     print("No eres mayor de edad, adiós")
     
- 
