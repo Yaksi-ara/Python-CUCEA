@@ -3,7 +3,7 @@ CantidadManzanas = (int(input("Ingresa cantidad manzanas que quieres comprar: ")
 Nombre = (input("Ingresa tu nombre: "))
 CostoT = (PrecioManzanas * CantidadManzanas)
 Descuento = 0
-if CantidadManzanas == 18 or Nombre.lower() == "Yaksi" : #Ese importa más q la otra condición jerárquicamente, si fuera al revés, el programa marcaría q no hay descuento secreto
+if CantidadManzanas == 18 or Nombre.lower() == "Yaksi" : 
     Descuento = (PrecioManzanas * CantidadManzanas)*.20
     print("Tienes un descuento especial del 20%")
     print("Total a pagar: ", (CostoT - Descuento), "pesos")
