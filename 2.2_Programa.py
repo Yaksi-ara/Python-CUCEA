@@ -1,4 +1,4 @@
-PrecioManzanas =(int(input("Ingresa precio manzanas: "))) # Se tiene que definir q tipo de variable se va a ingresar
+PrecioManzanas =(int(input("Ingresa precio manzanas: "))) 
 CantidadManzanas = (int(input("Ingresa cantidad manzanas: "))) # en este caso int, pq si no podrías poner una letra x letra y eso q
 print("El costo es de: ", PrecioManzanas * CantidadManzanas)
 
