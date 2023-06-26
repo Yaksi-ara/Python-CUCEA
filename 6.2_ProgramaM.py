@@ -1,3 +1,3 @@
 Fruta= input("¿Qué quieres comprar? ")
 if Fruta.lower = "manzanas":
-    
+    #PROGRAMA MANZANAS UTILIZANDO FUNCIONES, TIENE QUE INCLUIR VENTA DE DURAZNOS Y PERAS TAMBIÉN Y APLICAR LO DE CLEAR TERMINAL
