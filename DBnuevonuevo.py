@@ -16,13 +16,15 @@ elif opcionBaseDeDatos == 2:
     port = 4000
 
 conexion = None  # Define la variable conexion antes del bloque try
+
 try:
     conexion = mysql.connector.connect(
         host=host,
         user=user,
         passwd=passwd,
-        port=port
-    )
+        port=port)
+    cursor = conexion.cursor()
+    
     print("Se estableció conexión")
 except mysql.connector.Error as err:
     print("Ocurrió un error al establecer conexión: ", err)
