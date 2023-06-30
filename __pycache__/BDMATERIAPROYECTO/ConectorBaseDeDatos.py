@@ -1,7 +1,7 @@
 import mysql.connector
 selectrBaseDeDatos = 1
 def conexion(selectorBasedeDatos):
-    if selectorBasedeDatos == 1:
+    if selectorBasedeDatos == 'local':
         host="127.0.0.1"
         user="root" # root
         passwd="" # ""

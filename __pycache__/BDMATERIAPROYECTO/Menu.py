@@ -5,7 +5,6 @@ def menuPrincipal():
  1.-Alta Materia
  2.-Ver materia
  3.-Ver todas las materias
- 4.- Baja Materia
- 5.- Modificar Materia
- 6.- Eliminar materia""")
+ 4.- Modificar Materia
+ 5.- Eliminar materia""")
     
